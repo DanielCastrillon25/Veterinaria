@@ -41,10 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConsultaVeterinariaService.cs" />
     <Compile Include="EspecieService.cs" />
     <Compile Include="IService.cs" />
+    <Compile Include="MascotaService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PropietarioService.cs" />
     <Compile Include="RazaService.cs" />
+    <Compile Include="VeterinarioService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">

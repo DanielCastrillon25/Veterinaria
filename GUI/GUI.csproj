@@ -52,6 +52,36 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmConsultaMascotas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultaMascotas.Designer.cs">
+      <DependentUpon>FrmConsultaMascotas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsultaMascotasPorPropietario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultaMascotasPorPropietario.Designer.cs">
+      <DependentUpon>FrmConsultaMascotasPorPropietario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsultaPropietarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultaPropietarios.Designer.cs">
+      <DependentUpon>FrmConsultaPropietarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMascota.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMascota.Designer.cs">
+      <DependentUpon>FrmMascota.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPropietario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPropietario.Designer.cs">
+      <DependentUpon>FrmPropietario.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmConsultaEsoecies.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +106,12 @@
     <Compile Include="FrmRaza.Designer.cs">
       <DependentUpon>FrmRaza.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmVeterinario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVeterinario.Designer.cs">
+      <DependentUpon>FrmVeterinario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Especie.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,14 +126,32 @@
     <EmbeddedResource Include="FrmConsultaEsoecies.resx">
       <DependentUpon>FrmConsultaEsoecies.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsultaMascotas.resx">
+      <DependentUpon>FrmConsultaMascotas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsultaMascotasPorPropietario.resx">
+      <DependentUpon>FrmConsultaMascotasPorPropietario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsultaPropietarios.resx">
+      <DependentUpon>FrmConsultaPropietarios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmConsultaRazas.resx">
       <DependentUpon>FrmConsultaRazas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMascota.resx">
+      <DependentUpon>FrmMascota.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmPropietario.resx">
+      <DependentUpon>FrmPropietario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmRaza.resx">
       <DependentUpon>FrmRaza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVeterinario.resx">
+      <DependentUpon>FrmVeterinario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Especie.resx">
       <DependentUpon>Frm_Especie.cs</DependentUpon>
